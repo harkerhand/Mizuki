@@ -6,7 +6,7 @@ tags:
 - 图床
 category: 经验分享
 cover:
-index_img: https://image.harkerhand.online/file/5d0e3cb00e7e03672e347.png
+image: https://image.harkerhand.cn/file/5d0e3cb00e7e03672e347.png
 banner_img:
 ---
 
@@ -42,9 +42,9 @@ banner_img:
 
 [Pic-Url](https://telegraph-image-bhq.pages.dev) *源链*
 
-[Image](https://image.harkerhand.online) *转发链*
+[Image](https://image.harkerhand.cn) *转发链*
 
-| <img src="https://image.harkerhand.online/file/d75a74b5acb3470accf7c.jpg"  />**Knife is short, I use python** | <img src="https://image.harkerhand.online/file/1e6d8b6f0f776fb6d77c2.jpg" style="zoom:90%;" /> |
+| <img src="https://image.harkerhand.cn/file/d75a74b5acb3470accf7c.jpg"  />**Knife is short, I use python** | <img src="https://image.harkerhand.cn/file/1e6d8b6f0f776fb6d77c2.jpg" style="zoom:90%;" /> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 
 

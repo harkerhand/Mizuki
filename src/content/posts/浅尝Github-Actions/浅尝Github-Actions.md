@@ -5,10 +5,7 @@ tags:
 - git
 - github
 category: 经验分享
-cover:
-index_img: ./浅尝Github-Actions/github_actions.png
-banner_img:
-comment: twikoo
+image: ./github_actions.png
 ---
 
 
@@ -113,7 +110,7 @@ jobs:
 
 直接在GitHub更改.yml文件即被视为push，触发Actions
 
-转到Actions选项卡，出现类似![actions result](./浅尝Github-Actions/actions_result.png)
+转到Actions选项卡，出现类似![actions result](./actions_result.png)
 
 即为成功，库文件夹中出现对应.zip文件
 

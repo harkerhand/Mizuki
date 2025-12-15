@@ -6,7 +6,7 @@ tags:
 - 百度
 category: 经验分享
 cover:
-index_img: ./Hexo提交百度搜索引擎收录/hexo_baidu.jpg
+image: ./hexo_baidu.jpg
 banner_img:
 ---
 

@@ -5,7 +5,7 @@ tags:
 - C++
 category: 经验分享
 cover:
-index_img: ./新-VSCode配置C-CPP/cpp.png
+image: ./cpp.png
 banner_img:
 ---
 

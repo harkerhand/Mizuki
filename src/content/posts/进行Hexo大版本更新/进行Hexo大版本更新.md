@@ -5,7 +5,7 @@ tags:
 - Blog
 category: 经验分享
 cover:
-index_img: ./进行Hexo大版本更新/hexo.png
+image: ./hexo.png
 banner_img:
 ---
 

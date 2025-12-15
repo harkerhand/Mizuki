@@ -6,7 +6,7 @@ tags:
 - DoraSSR
 category: 经验分享
 cover: 
-index_img: ./使用DoraSSR引擎开发2048游戏Demo/logo.png
+image: ./logo.png
 banner_img:
 ---
 

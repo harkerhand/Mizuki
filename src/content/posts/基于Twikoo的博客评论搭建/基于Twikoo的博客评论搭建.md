@@ -5,7 +5,7 @@ tags:
 - Blog
 category: 经验分享
 cover:
-index_img: ./基于Twikoo的博客评论搭建/twikoo.png
+image: ./twikoo.png
 banner_img:
 comment: 'twikoo'
 ---
@@ -63,6 +63,6 @@ twikoo:
 
 # 效果展示
 
-![comment](./基于Twikoo的博客评论搭建/comment.png)
+![comment](./comment.png)
 
 本文下方的评论区同理，如果你使用的是移动设备，布局会略有不同

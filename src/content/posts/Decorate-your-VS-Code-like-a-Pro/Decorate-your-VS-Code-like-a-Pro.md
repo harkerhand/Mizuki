@@ -4,7 +4,7 @@ published: 2025-03-08 10:46:48
 tags: 
 - VSCode
 category: 经验分享
-index_img: ./Decorate-your-VS-Code-like-a-Pro/logo.png
+image: ./logo.png
 banner_img:
 ---
 
@@ -28,13 +28,13 @@ banner_img:
 
 [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) 或许是整个社区下载量最大的主题了，提供了几个不同风格的选项，或许你会喜欢
 
-![themes](./Decorate-your-VS-Code-like-a-Pro/image-20250308110114414.png)
+![themes](./image-20250308110114414.png)
 
 对于部分确实的代码高亮，不必担心，我们后续会补全的！
 
 如果你不喜欢这种黑不溜秋的，试一试 [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)，白色主题与GitHub中的效果几乎一致。
 
-![GitHub VS Code theme](./Decorate-your-VS-Code-like-a-Pro/132220037-3cd3e777-55a6-445f-9a2e-da6020ebd78d.png)
+![GitHub VS Code theme](./132220037-3cd3e777-55a6-445f-9a2e-da6020ebd78d.png)
 
 又或者你想要一些有*韵味*的主题，[Noctis](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis) 提供了一系列颜色的主题，具体就由你自己探索咯。
 
@@ -42,7 +42,7 @@ banner_img:
 
 [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) 非常好图标，使我结构清晰！
 
-![image-20250308122120292](./Decorate-your-VS-Code-like-a-Pro/image-20250308122120292.png)
+![image-20250308122120292](./image-20250308122120292.png)
 
 # 设置
 
@@ -65,7 +65,7 @@ banner_img:
 "explorer.compactFolders": false,
 ```
 
-![image-20250308111745264](./Decorate-your-VS-Code-like-a-Pro/image-20250308111745264.png)
+![image-20250308111745264](./image-20250308111745264.png)
 
 ## 更平滑
 
@@ -138,7 +138,7 @@ banner_img:
 
 举个例子，我在 `lib.rs` 文件中声明了一个未实现的函数，并使用的todo关键字进行标注，侧边栏的 *TODOS TREE* 便帮我收集并定位了 *TODO* 的位置。
 
-![image-20250308113529982](./Decorate-your-VS-Code-like-a-Pro/image-20250308113529982.png)
+![image-20250308113529982](./image-20250308113529982.png)
 
 然而，插件并不原生支持 RUST 的 `todo!()` ，所以我修改了配置，这样就可以了
 
@@ -148,7 +148,7 @@ banner_img:
 
 其中提到的 *TAGS* 同样在设置中可以配置，不过一般不需要新增了
 
-![image-20250308114220831](./Decorate-your-VS-Code-like-a-Pro/image-20250308114220831.png)
+![image-20250308114220831](./image-20250308114220831.png)
 
 ## 更好的错误提示
 
@@ -156,7 +156,7 @@ banner_img:
 
 它会直接在编辑窗口高亮显示错误信息，例：
 
-![image-20250308113856448](./Decorate-your-VS-Code-like-a-Pro/image-20250308113856448.png)
+![image-20250308113856448](./image-20250308113856448.png)
 
 ## Tab Tab
 
@@ -217,7 +217,7 @@ banner_img:
 
 [Dependi - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=fill-labs.dependi) 非常好依赖管理，如图
 
-![image-20250308120727443](./Decorate-your-VS-Code-like-a-Pro/image-20250308120727443.png)
+![image-20250308120727443](./image-20250308120727443.png)
 
 另外 Rust  程序员通常使用三斜线来书写markdown的文档注释
 

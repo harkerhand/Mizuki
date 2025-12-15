@@ -6,7 +6,7 @@ tags:
 - VS Code
 category: 经验分享
 cover:
-index_img: ./VS-Code中CPP环境配置/vscpp.png
+image: ./vscpp.png
 banner_img:
 ---
 
@@ -72,7 +72,7 @@ banner_img:
 
 - 安装选项如图
 
-  ![](./VS-Code中CPP环境配置/install.png)
+  ![](./install.png)
 
 - 离线安装方法
 
@@ -207,7 +207,7 @@ banner_img:
 
   程序输出到集成终端
 
-  ![](./VS-Code中CPP环境配置/00002.png)
+  ![](./00002.png)
 
 *注: 喜欢小黑框可以自行更改, 前文有注释*
 

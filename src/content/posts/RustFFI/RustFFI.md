@@ -5,7 +5,7 @@ tags:
 - Rust
 - FFI
 category: 经验分享
-index_img: ./RustFFI/rustjs.png
+image: ./rustjs.png
 banner_img:
 ---
 
@@ -20,7 +20,7 @@ FFI (Foreign Function Interface，外部函数接口) 是一种编程机制，�
 3. **C++**: `std::fstream` → `libc::open()` → `syscall(SYS_open)`
 
 open() 是 OS kernel 的编译产物，
-![image-20250803165921713](./RustFFI/image-20250803165921713.png)
+![image-20250803165921713](./image-20250803165921713.png)
 
 也就是说，只要将我们想要分享的代码也打包为类似的形式，就可以被其他程序所链接使用。
 
@@ -40,7 +40,7 @@ int add(int a, int b)
 
 编译一下，shared表示共享库，fPIC表示位置无关
 
-![image-20250803170002994](./RustFFI/image-20250803170002994.png)
+![image-20250803170002994](./image-20250803170002994.png)
 
 ```c
 // useadd.cpp
@@ -60,7 +60,7 @@ int main()
 ```
 
 -L表示库路径，-l表示链接add库（链接时检查）
-![image-20250803170315725](./RustFFI/image-20250803170315725.png)
+![image-20250803170315725](./image-20250803170315725.png)
 
 很好，成功了
 
@@ -83,11 +83,11 @@ pub extern "C" fn add(left: i32, right: i32) -> i32 {
 crate-type = ["cdylib"]
 ```
 
-![image-20250803170455641](./RustFFI/image-20250803170455641.png)
+![image-20250803170455641](./image-20250803170455641.png)
 
 编译后得到库，链接这个库来编译刚刚的cpp文件
 
-![image-20250803170620781](./RustFFI/image-20250803170620781.png)
+![image-20250803170620781](./image-20250803170620781.png)
 
 很好，依然是成功的。
 
@@ -558,7 +558,7 @@ Callback from Rust called! null
 JSNAPI 通过 dlopen 打开 node 包，然后执行 `napi_register_module_v1`  来注册包
 
 OH通过将包的注册函数添加到 `.init_array` 段，当程序启动，这个库被链接时自动调用
-![process_napi](./RustFFI/process_napi.png)
+![process_napi](./process_napi.png)
 
 其余部分几乎完全一致
 
