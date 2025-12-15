@@ -1,6 +1,6 @@
 ---
 title: Include Video in the Posts
-published: 2022-08-01
+published: 2020-09-01 00:00:00
 description: This post demonstrates how to include embedded video in a blog post.
 tags: [Example, Video]
 category: Examples
