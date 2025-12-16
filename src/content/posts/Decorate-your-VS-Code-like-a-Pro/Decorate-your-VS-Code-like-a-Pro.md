@@ -30,7 +30,7 @@ banner_img:
 
 ![themes](./image-20250308110114414.png)
 
-对于部分确实的代码高亮，不必担心，我们后续会补全的！
+对于部分缺失的代码高亮，不必担心，我们后续会补全的！
 
 如果你不喜欢这种黑不溜秋的，试一试 [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)，白色主题与GitHub中的效果几乎一致。
 

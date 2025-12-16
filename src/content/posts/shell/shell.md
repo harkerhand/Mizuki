@@ -4,7 +4,7 @@ published: 2025-12-16
 description: '这篇文章将带你从历史源头出发，理解终端的本质，并掌握这门与计算机内核对话的“母语”。'
 image: ''
 tags: [shell, ternimal]
-category: 经验分析
+category: 经验分享
 draft: false 
 lang: ''
 ---
