@@ -11,7 +11,7 @@
 
 /* 导入 MapleMono-NF-CN-Medium 字体 */
 @font-face {
-  font-family: "MapleMono-NF-CN-Medium";
+  font-family: "Maple Mono NF CN";
   src: url("/assets/font/MapleMono-NF-CN-Medium.woff2") format("woff2");
   font-weight: 500;
   font-display: swap;
