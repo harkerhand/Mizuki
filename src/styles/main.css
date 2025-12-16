@@ -9,10 +9,10 @@
 @import "./gradient-buttons.css";
 /* 加密内容样式已移除，现在直接使用非加密文章的样式 */
 
-/* 导入 ZenMaruGothic-Medium 字体 */
+/* 导入 MapleMono-NF-CN-Medium 字体 */
 @font-face {
-  font-family: "ZenMaruGothic-Medium";
-  src: url("/assets/font/ZenMaruGothic-Medium.woff2") format("woff2");
+  font-family: "MapleMono-NF-CN-Medium";
+  src: url("/assets/font/MapleMono-NF-CN-Medium.woff2") format("woff2");
   font-weight: 500;
   font-display: swap;
 }
